@@ -1,0 +1,65 @@
+Use Case - Register for Courses
+Brief Description
+This use case allows a Student to register for course offerings in the current semester. The Student can also modify or delete course selections if changes are made within the add/drop period at the beginning of the semester. The Course Catalog System provides a list of all the course offerings for the current semester.
+System: System.
+Primary and Secondary Actors
+Primary Actors: Student.
+Main Flow – Create a Schedule
+Student starts Use Case.
+Student selects "create schedule" on "Main Form".
+System retrieves the list of "Courses" from the "Course Catalog System".
+Student selects: Algorithms and Data Structures, Computer Architecture, Database of "Courses" from the "Course Catalog System".
+Student selects "submit" on "Main Form".
+System saves the schedule of "Student".
+Student finishes Use Case.
+Alternative Flows
+Alternative Flow 01 – Modify a Schedule
+Student selects "modify schedule" on "Main Form".
+System retrieves the schedule of "Student".
+System displays the schedule of "Student". 
+System retrieves the list of "Courses" from the "Course Catalog System".
+System displays the list to the "Student".
+Student selects: Calculus II from the list of "Courses".
+Student selects "add" on "Main Form".
+Student selects: Database from the list of "Courses".
+Student selects "delete" on "Main Form".
+Student selects "submit" on "Main Form".
+System saves the schedule of "Student".
+Alternative Flow 02 – Delete a Schedule
+Student selects "delete schedule" on "Main Form".
+System retrieves the schedule of "Student".
+System displays the schedule of "Student".
+Student selects "delete" on "Main Form".
+System displays the message "The schedule will be deleted".
+Student selects "Confirm deletion" on "Main Form".
+System deletes the schedule of "Student".
+Alternative Flow 03 – Save a Schedule
+Student selects "save" on "Main Form".
+System saves the schedule of the "Student".
+Alternative Flow 04 – Add Course Offering
+System verifies the prerequisites of "Student".
+System adds: Compilers from the list of "Courses".
+System displays the message "Enrollment Confirmed".
+Alternative Flow 05 – Unfulfilled Prerequisites
+System displays the message "The Student has not satisfied the necessary prerequisites".
+Alternative Flow 06 – Course Full
+System displays the message "The selected course offering is full".
+Alternative Flow 07 – No Schedule Found
+System displays the message "No schedule was found".
+Alternative Flow 08 – Course Catalog System Unavailable
+System displays the message "Course Catalog System Unavailable".
+Alternative Flow 09 - Course Registration Closed
+Student selects "maintain schedule" on "Main Form".
+System displays the message "The registration for the current semester has been closed".
+Key Scenarios
+Key Scenario 01 - Create a Schedule
+Key Scenario 02 - Modify a Schedule
+Key Scenario 03 - Delete a Schedule
+Pre Conditions
+Before this use case begins the Student has logged onto the system.
+Post Conditions
+There are no post conditions associated with this use case.
+Special Requirements
+There are no special requirements associated with this use case.
+Extension Points
+There are no extension points associated with this use case.

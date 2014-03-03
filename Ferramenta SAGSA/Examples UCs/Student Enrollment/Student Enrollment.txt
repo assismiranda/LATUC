@@ -1,0 +1,48 @@
+Use Case - Student Enrollment
+Brief Description
+This use case describes how students perform their enrollment.
+System: System.
+Primary and Secondary Actors
+Primary Actors: Student.
+Secondary Actors: Academic Secretary.
+Main Flow – Make Enrollment
+Student starts Use Case.
+Student enters: enrollment number of "Student".
+System validates the information of "Student".
+System retrieves attributes of "Student": name, nationality, social security number, zip code, sex.
+Student selects "Make enrollment" on "Main Form".
+Student searches the information of "Discipline": course, period, shift, group.
+System displays the information of "Discipline" on "Main Form".
+System enables "Confirm enrollment" on "Main Form".
+System requests "Confirmation" of "Enrollment".
+Student selects "Confirm enrollment" on "Main Form".
+System validates the information of "Enrollment".
+System displays the message "Enrollment Confirmed".
+System generates the request of "Enrollment".
+System sends the information of "Enrollment": date, id number by "e-mail".
+System sends the request to "Academic Secretary".
+Student finishes Use Case.
+Alternative Flows
+Alternative Flow 01 – Validate Enrollment Number
+System displays the message "The enrollment number does not exist".
+Alternative Flow 02 – Check Enrollment Effected
+System displays the message "You are already enrolled".
+Alternative Flow 03 – Check Dependencies from Previous Semesters
+System shows the dependencies of "Student" on "Main Form".
+System enables "Enroll in Dependency" on "Main Form".
+System enables "Confirm enrollment" on "Main Form".
+System requests "Confirmation" of "Enrollment".
+Student selects "Confirm enrollment" on "Main Form".
+System validates the information of "Enrollment".
+System displays the message "Enrollment of Dependency Confirmed".
+Key Scenarios
+Key Scenario 01 - Make Enrollment
+Key Scenario 02 - Check Dependencies from Previous Semesters
+Pre Conditions
+There is an active network connection to the student enrollment database.
+Post Conditions
+There are no post conditions associated with this use case.
+Special Requirements
+There are no special requirements associated with this use case.
+Extension Points
+There are no extension points associated with this use case.

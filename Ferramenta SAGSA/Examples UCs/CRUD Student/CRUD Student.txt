@@ -1,0 +1,45 @@
+Use Case - CRUD Student
+Brief Description
+This use case allows the Secretary to maintain student.
+System: System.
+Primary and Secondary Actors
+Primary Actors: Secretary.
+Main Flow – Add Student
+Secretary starts Use Case.
+Secretary selects "maintain student" on "Main Form".
+Secretary selects "add student" on "Main Form".
+Secretary enters attributes of "Student": id number, name, social security number, status, graduation date.
+System validates attributes of "Student".
+System searches for "Student".
+Secretary finishes Use Case.
+Alternative Flows
+Alternative Flow 01 – Modify Student
+Secretary selects "modify student" on "Main Form".
+Secretary types: id number of "Student".
+System retrieves attributes of "Student".
+System displays attributes of "Student" on "Main Form".
+Secretary modifies attributes of "Student": name, graduation date.
+Secretary selects "save" on "Main Form".
+System updates the information of "Student".
+Alternative Flow 02 – Delete Student
+Secretary selects "delete student" on "Main Form".
+Secretary types: id number of "Student".
+System retrieves attributes of "Student".
+System displays attributes of "Student" on "Main Form".
+Secretary selects "delete" on "Main Form".
+Alternative Flow 03 – Read Student
+Secretary selects "read student" on "Main Form".
+Secretary types: id number of "Student".
+System retrieves attributes of "Student".
+System displays the information of "Student" on "Main Form".
+Key Scenarios
+Key Scenario 01 - Add Student
+Key Scenario 02 - Delete Student
+Pre Conditions
+Before this use case begins the Secretary has logged onto the system.
+Post Conditions
+There are no post conditions associated with this use case.
+Special Requirements
+There are no special requirements associated with this use case.
+Extension Points
+There are no extension points associated with this use case.
