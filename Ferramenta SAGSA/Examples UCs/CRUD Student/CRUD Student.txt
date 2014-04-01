@@ -19,14 +19,14 @@ Secretary types: id number of "Student".
 System retrieves attributes of "Student".
 System displays attributes of "Student" on "Main Form".
 Secretary modifies attributes of "Student": name, graduation date.
-Secretary selects "save" on "Main Form".
+Secretary selects "save student" on "Main Form".
 System updates the information of "Student".
 Alternative Flow 02 – Delete Student
 Secretary selects "delete student" on "Main Form".
 Secretary types: id number of "Student".
 System retrieves attributes of "Student".
 System displays attributes of "Student" on "Main Form".
-Secretary selects "delete" on "Main Form".
+Secretary selects "confirm action" on "Main Form".
 Alternative Flow 03 – Read Student
 Secretary selects "read student" on "Main Form".
 Secretary types: id number of "Student".

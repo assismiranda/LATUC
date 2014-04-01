@@ -14,1023 +14,901 @@
     <XMI.metamodel xmi.name="UML" xmi.version="1.4"/>
   </XMI.header>
   <XMI.content>
-    <UML:Model xmi.id="1-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="no_title" version="0" unSolvedFlag="false" isRoot="true" isLeaf="false" isAbstract="false" xmlns:UML="org.omg.xmi.namespace.UML">
+    <UML:Model xmi.id="1-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="no_title" version="0" unSolvedFlag="false" isRoot="true" isLeaf="false" isAbstract="false" xmlns:UML="org.omg.xmi.namespace.UML">
       <UML:ModelElement.taggedValue>
-        <UML:TaggedValue xmi.id="2-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" tag="jude.profiles" value="%3C%3Fxml+version+%3D+%221.0%22+encoding+%3D+%22UTF-8%22+standalone+%3D+%22yes%22%3F%3E%0D%0A%3CumlProfiles%3E%0D%0A+%3CumlProfile%3E%0D%0A++%3Cname%3Ejude.profiles%3C%2Fname%3E%0D%0A+%3C%2FumlProfile%3E%0D%0A%3C%2FumlProfiles%3E%0D%0A%0D%0A">
+        <UML:TaggedValue xmi.id="2-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" tag="jude.profiles" value="%3C%3Fxml+version+%3D+%221.0%22+encoding+%3D+%22UTF-8%22+standalone+%3D+%22yes%22%3F%3E%0D%0A%3CumlProfiles%3E%0D%0A+%3CumlProfile%3E%0D%0A++%3Cname%3Ejude.profiles%3C%2Fname%3E%0D%0A+%3C%2FumlProfile%3E%0D%0A%3C%2FumlProfiles%3E%0D%0A%0D%0A">
           <UML:TaggedValue.modelElement>
-            <UML:ModelElement xmi.idref="1-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+            <UML:ModelElement xmi.idref="1-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
           </UML:TaggedValue.modelElement>
         </UML:TaggedValue>
       </UML:ModelElement.taggedValue>
       <UML:Namespace.ownedElement>
-        <UML:Package xmi.id="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="DSL" version="0" unSolvedFlag="false" isRoot="true" isLeaf="false" isAbstract="false">
+        <UML:Package xmi.id="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="DSL" version="0" unSolvedFlag="false" isRoot="true" isLeaf="false" isAbstract="false">
           <UML:ModelElement.namespace>
-            <UML:Namespace xmi.idref="1-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+            <UML:Namespace xmi.idref="1-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
           </UML:ModelElement.namespace>
           <UML:ModelElement.visibility xmi.value="public"/>
           <UML:Namespace.ownedElement>
-            <UML:UseCase xmi.id="9-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="REGISTER_FOR_COURSES" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:UseCase xmi.id="9-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="Register_for_Courses" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
             </UML:UseCase>
-            <UML:Actor xmi.id="x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="%3C%3CPrimary+Actor%3E%3ESTUDENT" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:Actor xmi.id="x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="%3C%3CPrimary+Actor%3E%3EStudent" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
               <UML:ModelElement.stereotype>
-                <UML:Stereotype xmi.idref="z-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Stereotype xmi.idref="z-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.stereotype>
             </UML:Actor>
-            <UML:Association xmi.id="2f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false">
+            <UML:Association xmi.id="2f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
               <UML:Association.connection>
-                <UML:AssociationEnd xmi.id="2h-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="none" ordering="unordered" navigableType="unspecified navigable" isNavigable="false">
+                <UML:AssociationEnd xmi.id="2h-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="none" ordering="unordered" navigableType="unspecified navigable" isNavigable="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.multiplicity>
-                    <UML:Multiplicity xmi.id="1nz-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f">
+                    <UML:Multiplicity xmi.id="1hb-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394">
                       <UML:Multiplicity.range>
-                        <UML:MultiplicityRange xmi.id="1o0-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" lowerValue="" upperValue=""/>
+                        <UML:MultiplicityRange xmi.id="1hc-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" lowerValue="" upperValue=""/>
                       </UML:Multiplicity.range>
                     </UML:Multiplicity>
                   </UML:StructuralFeature.multiplicity>
                   <UML:AssociationEnd.participant>
-                    <UML:Classifier xmi.idref="9-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="9-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:AssociationEnd.participant>
                   <UML:AssociationEnd.association>
-                    <UML:Association xmi.idref="2f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Association xmi.idref="2f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:AssociationEnd.association>
                   <UML:AssociationEnd.visibility xmi.value="private"/>
                 </UML:AssociationEnd>
-                <UML:AssociationEnd xmi.id="2k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="none" ordering="unordered" navigableType="unspecified navigable" isNavigable="false">
+                <UML:AssociationEnd xmi.id="2k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="none" ordering="unordered" navigableType="unspecified navigable" isNavigable="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="9-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="9-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.multiplicity>
-                    <UML:Multiplicity xmi.id="1o1-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f">
+                    <UML:Multiplicity xmi.id="1hd-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394">
                       <UML:Multiplicity.range>
-                        <UML:MultiplicityRange xmi.id="1o2-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" lowerValue="" upperValue=""/>
+                        <UML:MultiplicityRange xmi.id="1he-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" lowerValue="" upperValue=""/>
                       </UML:Multiplicity.range>
                     </UML:Multiplicity>
                   </UML:StructuralFeature.multiplicity>
                   <UML:AssociationEnd.participant>
-                    <UML:Classifier xmi.idref="x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:AssociationEnd.participant>
                   <UML:AssociationEnd.association>
-                    <UML:Association xmi.idref="2f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Association xmi.idref="2f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:AssociationEnd.association>
                   <UML:AssociationEnd.visibility xmi.value="private"/>
                 </UML:AssociationEnd>
               </UML:Association.connection>
             </UML:Association>
-            <UML:AssociationEnd xmi.idref="2h-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-            <UML:AssociationEnd xmi.idref="2k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-            <UML:Class xmi.id="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="%3C%3CCONTROL%3E%3E+REGISTER_FOR_COURSES+" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:AssociationEnd xmi.idref="2h-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+            <UML:AssociationEnd xmi.idref="2k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+            <UML:Class xmi.id="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="%3C%3CController%3E%3E+RegisterCourses+" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
-              <UML:ModelElement.definition xmi.value="control"/>
+              <UML:ModelElement.definition xmi.value="Controller"/>
               <UML:ModelElement.clientDependency>
-                <UML:Dependency xmi.idref="ln-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                <UML:Dependency xmi.idref="m0-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                <UML:Dependency xmi.idref="mm-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                <UML:Dependency xmi.idref="mz-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Dependency xmi.idref="j5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+                <UML:Dependency xmi.idref="ji-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+                <UML:Dependency xmi.idref="k4-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+                <UML:Dependency xmi.idref="kh-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.clientDependency>
               <UML:Namespace.ownedElement></UML:Namespace.ownedElement>
               <UML:Classifier.feature>
-                <UML:Attribute xmi.id="3u-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="main_form" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
+                <UML:Attribute xmi.id="3u-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="MainForm" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="3x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="3x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:StructuralFeature.type>
                 </UML:Attribute>
-                <UML:Attribute xmi.id="3z-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="courses" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
+                <UML:Attribute xmi.id="3z-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="Courses" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="42-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="42-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:StructuralFeature.type>
                 </UML:Attribute>
-                <UML:Operation xmi.id="44-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="CREATE_A_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="44-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="createSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="48-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="48-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="44-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="44-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="4a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="MODIFY_A_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="4a-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="modifySchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="4e-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="4e-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="4a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="4a-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="4g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="DELETE_A_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="4g-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="deleteSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="4k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="4k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="4g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="4g-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="4m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SAVE_A_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="4m-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="saveSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="4q-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="4q-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="4m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="4m-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="4s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="ADD_COURSE_OFFERING" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="4s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="addCourseOffering" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="4w-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="4w-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="4s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="4s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="4y-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="UNFULFILLED_PREREQUISITES" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="4y-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="unfulfilledPrerequisites" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="52-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="52-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="4y-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="4y-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="54-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="COURSE_FULL" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="54-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="courseFull" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="58-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="58-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="54-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="54-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="5a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="NO_SCHEDULE_FOUND" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="5a-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="noScheduleFound" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="5e-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="5e-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="5a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="5a-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="5g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="COURSE_CATALOG_SYSTEM_UNAVAILABLE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="5g-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="courseCatalogSystemUnavailable" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="5k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="5k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="5g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="5g-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="5m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="COURSE_REGISTRATION_CLOSED" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="5m-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="courseRegistrationClosed" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="5q-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="5q-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="5m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="5m-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
               </UML:Classifier.feature>
             </UML:Class>
-            <UML:Class xmi.id="3x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="MAIN_FORM" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:Class xmi.id="3x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="MainForm" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
             </UML:Class>
-            <UML:Class xmi.id="42-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="COURSES" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:Class xmi.id="42-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="Courses" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
             </UML:Class>
-            <UML:Class xmi.id="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="%3C%3CBOUNDARY%3E%3E+MAIN_FORM+" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:Class xmi.id="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="%3C%3CBoundary%3E%3E+MainForm+" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
-              <UML:ModelElement.definition xmi.value="boundary"/>
+              <UML:ModelElement.definition xmi.value="Boundary"/>
               <UML:Namespace.ownedElement></UML:Namespace.ownedElement>
               <UML:Classifier.feature>
-                <UML:Attribute xmi.id="5u-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="MAIN_FORM" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
+                <UML:Attribute xmi.id="5u-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="MainForm" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:StructuralFeature.type>
                 </UML:Attribute>
-                <UML:Operation xmi.id="5x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="CREATE_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="5x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="createSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="61-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="61-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="5x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="5x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="63-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SUBMIT" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="63-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="submitSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="67-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="67-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="63-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="63-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="69-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="MODIFY_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="69-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="modifySchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="6d-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="6d-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="69-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="69-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="6f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="ADD" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="6f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="addCourse" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="6j-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="6j-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="6f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="6f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="6l-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="DELETE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="6l-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="deleteCourse" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="6p-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="6p-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="6l-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="6l-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="6r-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="DELETE_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="6r-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="deleteSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="6v-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="6v-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="6r-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="6r-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="6x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="CONFIRM_DELETION" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="6x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="confirmDeletion" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="71-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="71-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="6x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="6x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="73-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SAVE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="73-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="saveSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="77-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="77-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="73-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="73-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="79-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="MAINTAIN_SCHEDULE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="79-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="maintainSchedule" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="7d-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="7d-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="79-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="79-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
               </UML:Classifier.feature>
             </UML:Class>
-            <UML:Class xmi.id="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="%3C%3CENTITY%3E%3E+COURSES+" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:Class xmi.id="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="%3C%3CEntity%3E%3E+Courses+" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
-              <UML:ModelElement.definition xmi.value="entity"/>
+              <UML:ModelElement.definition xmi.value="Entity"/>
               <UML:Namespace.ownedElement></UML:Namespace.ownedElement>
               <UML:Classifier.feature>
-                <UML:Attribute xmi.id="7h-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="ALGORITHMS_AND_DATA_STRUCTURES" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
+                <UML:Attribute xmi.id="7h-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="name" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:StructuralFeature.type>
                 </UML:Attribute>
-                <UML:Attribute xmi.id="7m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="COMPUTER_ARCHITECTURE" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
+                <UML:Attribute xmi.id="7m-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="description" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:StructuralFeature.type>
                 </UML:Attribute>
-                <UML:Attribute xmi.id="7p-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="DATABASE" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
+                <UML:Attribute xmi.id="7p-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="content" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="private"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="private"/>
                   <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:StructuralFeature.type>
                 </UML:Attribute>
-                <UML:Attribute xmi.id="7s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="CALCULATION_II" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
+                <UML:Operation xmi.id="7s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="getName" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:ModelElement.namespace>
-                  <UML:ModelElement.visibility xmi.value="private"/>
-                  <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:Feature.owner>
-                  <UML:Feature.visibility xmi.value="private"/>
-                  <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:StructuralFeature.type>
-                </UML:Attribute>
-                <UML:Attribute xmi.id="7v-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="COMPILERS" version="0" unSolvedFlag="false" ownerScope="instance" targetScope="instance" changeability="changeable" aggregation="composite">
-                  <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:ModelElement.namespace>
-                  <UML:ModelElement.visibility xmi.value="private"/>
-                  <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:Feature.owner>
-                  <UML:Feature.visibility xmi.value="private"/>
-                  <UML:StructuralFeature.type>
-                    <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:StructuralFeature.type>
-                </UML:Attribute>
-                <UML:Operation xmi.id="7y-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="GET_ALGORITHMS_AND_DATA_STRUCTURES" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
-                  <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="82-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="7w-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="7y-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="7s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="7k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="84-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SET_ALGORITHMS_AND_DATA_STRUCTURES" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="7y-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="setName" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="88-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="82-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="84-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="7y-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="8a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="GET_COMPUTER_ARCHITECTURE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="84-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="getDescription" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="8e-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="88-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="8a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="84-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="7k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="8g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SET_COMPUTER_ARCHITECTURE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="8a-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="setDescription" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="8k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="8e-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="8g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="8a-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="8m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="GET_DATABASE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="8g-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="getContent" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="8q-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="8k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="8m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="8g-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="7k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
-                <UML:Operation xmi.id="8s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SET_DATABASE" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
+                <UML:Operation xmi.id="8m-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="setContent" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
                   <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:ModelElement.namespace>
                   <UML:ModelElement.visibility xmi.value="public"/>
                   <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                    <UML:Classifier xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                   </UML:Feature.owner>
                   <UML:Feature.visibility xmi.value="public"/>
                   <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="8w-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
+                    <UML:Parameter xmi.id="8q-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" kind="return">
                       <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Namespace xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:ModelElement.namespace>
                       <UML:ModelElement.visibility xmi.value="public"/>
                       <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="8s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:BehavioralFeature xmi.idref="8m-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.behavioralFeature>
                       <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.type>
-                    </UML:Parameter>
-                  </UML:BehavioralFeature.parameter>
-                </UML:Operation>
-                <UML:Operation xmi.id="8y-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="GET_CALCULATION_II" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
-                  <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:ModelElement.namespace>
-                  <UML:ModelElement.visibility xmi.value="public"/>
-                  <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:Feature.owner>
-                  <UML:Feature.visibility xmi.value="public"/>
-                  <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="92-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
-                      <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:ModelElement.namespace>
-                      <UML:ModelElement.visibility xmi.value="public"/>
-                      <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="8y-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.behavioralFeature>
-                      <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.type>
-                    </UML:Parameter>
-                  </UML:BehavioralFeature.parameter>
-                </UML:Operation>
-                <UML:Operation xmi.id="94-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SET_CALCULATION_II" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
-                  <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:ModelElement.namespace>
-                  <UML:ModelElement.visibility xmi.value="public"/>
-                  <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:Feature.owner>
-                  <UML:Feature.visibility xmi.value="public"/>
-                  <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="98-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
-                      <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:ModelElement.namespace>
-                      <UML:ModelElement.visibility xmi.value="public"/>
-                      <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="94-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.behavioralFeature>
-                      <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.type>
-                    </UML:Parameter>
-                  </UML:BehavioralFeature.parameter>
-                </UML:Operation>
-                <UML:Operation xmi.id="9a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="GET_COMPILERS" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
-                  <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:ModelElement.namespace>
-                  <UML:ModelElement.visibility xmi.value="public"/>
-                  <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:Feature.owner>
-                  <UML:Feature.visibility xmi.value="public"/>
-                  <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="9e-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
-                      <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:ModelElement.namespace>
-                      <UML:ModelElement.visibility xmi.value="public"/>
-                      <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="9a-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.behavioralFeature>
-                      <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.type>
-                    </UML:Parameter>
-                  </UML:BehavioralFeature.parameter>
-                </UML:Operation>
-                <UML:Operation xmi.id="9g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="SET_COMPILERS" version="0" unSolvedFlag="false" ownerScope="instance" isQuery="true" concurrency="sequential" isRoot="false" isLeaf="false" isAbstract="false">
-                  <UML:ModelElement.namespace>
-                    <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:ModelElement.namespace>
-                  <UML:ModelElement.visibility xmi.value="public"/>
-                  <UML:Feature.owner>
-                    <UML:Classifier xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                  </UML:Feature.owner>
-                  <UML:Feature.visibility xmi.value="public"/>
-                  <UML:BehavioralFeature.parameter>
-                    <UML:Parameter xmi.id="9k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" kind="return">
-                      <UML:ModelElement.namespace>
-                        <UML:Namespace xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:ModelElement.namespace>
-                      <UML:ModelElement.visibility xmi.value="public"/>
-                      <UML:Parameter.behavioralFeature>
-                        <UML:BehavioralFeature xmi.idref="9g-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-                      </UML:Parameter.behavioralFeature>
-                      <UML:Parameter.type>
-                        <UML:Classifier xmi.idref="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                        <UML:Classifier xmi.idref="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                       </UML:Parameter.type>
                     </UML:Parameter>
                   </UML:BehavioralFeature.parameter>
                 </UML:Operation>
               </UML:Classifier.feature>
             </UML:Class>
-            <UML:Class xmi.id="7k-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="String" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+            <UML:Class xmi.id="7k-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="String" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
             </UML:Class>
-            <UML:Dependency xmi.id="ln-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" description="">
+            <UML:Dependency xmi.id="j5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" description="">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
               <UML:Dependency.client>
-                <UML:ModelElement xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.client>
               <UML:Dependency.supplier>
-                <UML:ModelElement xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.supplier>
             </UML:Dependency>
-            <UML:Dependency xmi.id="m0-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" description="">
+            <UML:Dependency xmi.id="ji-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" description="">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
               <UML:Dependency.client>
-                <UML:ModelElement xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.client>
               <UML:Dependency.supplier>
-                <UML:ModelElement xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.supplier>
             </UML:Dependency>
-            <UML:Dependency xmi.id="mm-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" description="">
+            <UML:Dependency xmi.id="k4-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" description="">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
               <UML:Dependency.client>
-                <UML:ModelElement xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.client>
               <UML:Dependency.supplier>
-                <UML:ModelElement xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.supplier>
             </UML:Dependency>
-            <UML:Dependency xmi.id="mz-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="" version="0" unSolvedFlag="false" description="">
+            <UML:Dependency xmi.id="kh-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="" version="0" unSolvedFlag="false" description="">
               <UML:ModelElement.namespace>
-                <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:ModelElement.namespace>
               <UML:ModelElement.visibility xmi.value="public"/>
               <UML:Dependency.client>
-                <UML:ModelElement xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.client>
               <UML:Dependency.supplier>
-                <UML:ModelElement xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Dependency.supplier>
             </UML:Dependency>
-            <UML:Stereotype xmi.id="z-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="actor" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false">
+            <UML:Stereotype xmi.id="z-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="actor" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false">
               <UML:Stereotype.baseClass>Actor</UML:Stereotype.baseClass>
               <UML:Stereotype.extendedElement>
-                <UML:ModelElement xmi.idref="x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                <UML:ModelElement xmi.idref="x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
               </UML:Stereotype.extendedElement>
             </UML:Stereotype>
           </UML:Namespace.ownedElement>
         </UML:Package>
       </UML:Namespace.ownedElement>
     </UML:Model>
-    <UML:Primitive xmi.id="37-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="void" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"></UML:Primitive>
+    <UML:Primitive xmi.id="37-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="void" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false"></UML:Primitive>
     <XMI.extension></XMI.extension>
     <XMI.extension>
-      <JUDE:Diagram xmi.id="5-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="DSLUseCaseDiagram" typeInfo="UseCase Diagram" version="0" xmlns:JUDE="http://objectclub.esm.co.jp/Jude/namespace/">
+      <JUDE:Diagram xmi.id="5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="DSLUseCaseDiagram" typeInfo="UseCase Diagram" version="0" xmlns:JUDE="http://objectclub.esm.co.jp/Jude/namespace/">
         <UML:ModelElement.namespace>
-          <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+          <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
         </UML:ModelElement.namespace>
         <JUDE:Diagram.presentations>
-          <JUDE:UseCasePresentation xmi.id="b-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-1" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="REGISTER_FOR_COURSES" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false" withinOvalName="true" stereotypeAboveOval="false">
+          <JUDE:UseCasePresentation xmi.id="b-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-1" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="120.0" height="42.69157191413781" doAutoResize="true" visibility="true" label="Register_for_Courses" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false" withinOvalName="true" stereotypeAboveOval="false">
             <JUDE:UPresentation.semanticModel>
-              <UML:UseCase xmi.idref="9-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:UseCase xmi.idref="9-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="5-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.clients>
-              <JUDE:AssociationPresentation xmi.idref="2n-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:AssociationPresentation xmi.idref="2n-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.clients>
             <JUDE:UPresentation.customStyleMap>
               <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
@@ -1041,15 +919,15 @@
               <XMI.field>150.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:UseCasePresentation>
-          <JUDE:ClassifierPresentation xmi.id="10-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-2" stereotypeVisibility="true" constraintVisibility="true" notationType="1" width="40.0" height="70.09375" doAutoResize="true" visibility="true" label="%3C%3CPrimary+Actor%3E%3ESTUDENT" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
+          <JUDE:ClassifierPresentation xmi.id="10-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-2" stereotypeVisibility="true" constraintVisibility="true" notationType="1" width="40.0" height="70.09375" doAutoResize="true" visibility="true" label="%3C%3CPrimary+Actor%3E%3EStudent" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
             <JUDE:UPresentation.semanticModel>
-              <UML:Actor xmi.idref="x-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:Actor xmi.idref="x-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="5-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.clients>
-              <JUDE:AssociationPresentation xmi.idref="2n-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:AssociationPresentation xmi.idref="2n-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.clients>
             <JUDE:UPresentation.customStyleMap>
               <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
@@ -1060,29 +938,29 @@
               <XMI.field>150.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:ClassifierPresentation>
-          <JUDE:AssociationPresentation xmi.id="2n-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-3" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true" qualifierBoxATypeVisibility="true" qualifierBoxBTypeVisibility="true" nameDirectionVisible="true" nameDirectionReverse="0">
+          <JUDE:AssociationPresentation xmi.id="2n-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-3" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true" qualifierBoxATypeVisibility="true" qualifierBoxBTypeVisibility="true" nameDirectionVisible="true" nameDirectionReverse="0">
             <JUDE:UPresentation.semanticModel>
-              <UML:Association xmi.idref="2f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:Association xmi.idref="2f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="5-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.servers>
-              <JUDE:UseCasePresentation xmi.idref="b-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-              <JUDE:ClassifierPresentation xmi.idref="10-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:UseCasePresentation xmi.idref="b-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+              <JUDE:ClassifierPresentation xmi.idref="10-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.servers>
             <JUDE:JomtPresentation.location>
               <XMI.field>0.0</XMI.field>
               <XMI.field>0.0</XMI.field>
             </JUDE:JomtPresentation.location>
             <JUDE:PathPresentation.namePresentation>
-              <JUDE:LabelPresentation xmi.id="1o3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
+              <JUDE:LabelPresentation xmi.id="1hf-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
                 <JUDE:JomtPresentation.location>
                   <XMI.field>239.5</XMI.field>
                   <XMI.field>181.09167537779035</XMI.field>
                 </JUDE:JomtPresentation.location>
                 <JUDE:JomtPresentation.compositeParent>
-                  <JUDE:UPresentation xmi.idref="2n-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                  <JUDE:UPresentation xmi.idref="2n-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                 </JUDE:JomtPresentation.compositeParent>
               </JUDE:LabelPresentation>
             </JUDE:PathPresentation.namePresentation>
@@ -1098,20 +976,20 @@
           </JUDE:AssociationPresentation>
         </JUDE:Diagram.presentations>
       </JUDE:Diagram>
-      <JUDE:Diagram xmi.id="7-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" name="DSLClassDiagram" typeInfo="Class Diagram" version="0">
+      <JUDE:Diagram xmi.id="7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" name="DSLClassDiagram" typeInfo="Class Diagram" version="0">
         <UML:ModelElement.namespace>
-          <UML:Namespace xmi.idref="3-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+          <UML:Namespace xmi.idref="3-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
         </UML:ModelElement.namespace>
         <JUDE:Diagram.presentations>
-          <JUDE:ClassifierPresentation xmi.id="9m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-1" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="197.0" height="193.03125" doAutoResize="true" visibility="true" label="%3C%3CBOUNDARY%3E%3E+MAIN_FORM+" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
+          <JUDE:ClassifierPresentation xmi.id="8s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-1" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="169.0" height="193.03125" doAutoResize="true" visibility="true" label="%3C%3CBoundary%3E%3E+MainForm+" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
             <JUDE:UPresentation.semanticModel>
-              <UML:Class xmi.idref="5s-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:Class xmi.idref="5s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="7-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.clients>
-              <JUDE:DependencyPresentation xmi.idref="mo-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:DependencyPresentation xmi.idref="k6-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.clients>
             <JUDE:UPresentation.customStyleMap>
               <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
@@ -1122,16 +1000,16 @@
               <XMI.field>150.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:ClassifierPresentation>
-          <JUDE:ClassifierPresentation xmi.id="cz-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-2" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="323.0" height="223.21875" doAutoResize="true" visibility="true" label="%3C%3CCONTROL%3E%3E+REGISTER_FOR_COURSES+" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
+          <JUDE:ClassifierPresentation xmi.id="c5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-2" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="256.0" height="223.21875" doAutoResize="true" visibility="true" label="%3C%3CController%3E%3E+RegisterCourses+" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
             <JUDE:UPresentation.semanticModel>
-              <UML:Class xmi.idref="2t-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:Class xmi.idref="2t-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="7-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.clients>
-              <JUDE:DependencyPresentation xmi.idref="lp-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-              <JUDE:DependencyPresentation xmi.idref="mo-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:DependencyPresentation xmi.idref="j7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+              <JUDE:DependencyPresentation xmi.idref="k6-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.clients>
             <JUDE:UPresentation.customStyleMap>
               <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
@@ -1142,15 +1020,15 @@
               <XMI.field>550.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:ClassifierPresentation>
-          <JUDE:ClassifierPresentation xmi.id="gw-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-3" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="346.0" height="268.5" doAutoResize="true" visibility="true" label="%3C%3CENTITY%3E%3E+COURSES+" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
+          <JUDE:ClassifierPresentation xmi.id="g2-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-3" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="159.0" height="177.9375" doAutoResize="true" visibility="true" label="%3C%3CEntity%3E%3E+Courses+" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="false">
             <JUDE:UPresentation.semanticModel>
-              <UML:Class xmi.idref="7f-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:Class xmi.idref="7f-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="7-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.clients>
-              <JUDE:DependencyPresentation xmi.idref="lp-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:DependencyPresentation xmi.idref="j7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.clients>
             <JUDE:UPresentation.customStyleMap>
               <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
@@ -1161,29 +1039,29 @@
               <XMI.field>950.0</XMI.field>
             </JUDE:JomtPresentation.location>
           </JUDE:ClassifierPresentation>
-          <JUDE:DependencyPresentation xmi.id="lp-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-4" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true">
+          <JUDE:DependencyPresentation xmi.id="j7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-4" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true">
             <JUDE:UPresentation.semanticModel>
-              <UML:Dependency xmi.idref="m0-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:Dependency xmi.idref="ji-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="7-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.servers>
-              <JUDE:ClassifierPresentation xmi.idref="gw-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-              <JUDE:ClassifierPresentation xmi.idref="cz-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:ClassifierPresentation xmi.idref="g2-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+              <JUDE:ClassifierPresentation xmi.idref="c5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.servers>
             <JUDE:JomtPresentation.location>
               <XMI.field>0.0</XMI.field>
               <XMI.field>0.0</XMI.field>
             </JUDE:JomtPresentation.location>
             <JUDE:PathPresentation.namePresentation>
-              <JUDE:LabelPresentation xmi.id="1q6-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
+              <JUDE:LabelPresentation xmi.id="1ji-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
                 <JUDE:JomtPresentation.location>
-                  <XMI.field>461.4419756737772</XMI.field>
+                  <XMI.field>396.7950602459525</XMI.field>
                   <XMI.field>863.0625</XMI.field>
                 </JUDE:JomtPresentation.location>
                 <JUDE:JomtPresentation.compositeParent>
-                  <JUDE:UPresentation xmi.idref="lp-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                  <JUDE:UPresentation xmi.idref="j7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                 </JUDE:JomtPresentation.compositeParent>
               </JUDE:LabelPresentation>
             </JUDE:PathPresentation.namePresentation>
@@ -1197,29 +1075,29 @@
             </JUDE:BinaryRelationPresentation.targetEnd>
             <JUDE:PathPresentation.points></JUDE:PathPresentation.points>
           </JUDE:DependencyPresentation>
-          <JUDE:DependencyPresentation xmi.id="mo-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="-5" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true">
+          <JUDE:DependencyPresentation xmi.id="k6-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="-5" stereotypeVisibility="true" constraintVisibility="true" notationType="0" rightAngle="false" visibility="true">
             <JUDE:UPresentation.semanticModel>
-              <UML:Dependency xmi.idref="mz-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <UML:Dependency xmi.idref="kh-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.semanticModel>
             <JUDE:UPresentation.diagram>
-              <JUDE:Diagram xmi.idref="7-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:Diagram xmi.idref="7-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.diagram>
             <JUDE:UPresentation.servers>
-              <JUDE:ClassifierPresentation xmi.idref="9m-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
-              <JUDE:ClassifierPresentation xmi.idref="cz-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+              <JUDE:ClassifierPresentation xmi.idref="8s-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
+              <JUDE:ClassifierPresentation xmi.idref="c5-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
             </JUDE:UPresentation.servers>
             <JUDE:JomtPresentation.location>
               <XMI.field>0.0</XMI.field>
               <XMI.field>0.0</XMI.field>
             </JUDE:JomtPresentation.location>
             <JUDE:PathPresentation.namePresentation>
-              <JUDE:LabelPresentation xmi.id="1qh-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
+              <JUDE:LabelPresentation xmi.id="1jt-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394" version="0" depth="0" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="11.0" height="15.09375" doAutoResize="true" visibility="true">
                 <JUDE:JomtPresentation.location>
-                  <XMI.field>423.35458857185876</XMI.field>
+                  <XMI.field>399.9591206805692</XMI.field>
                   <XMI.field>447.96875</XMI.field>
                 </JUDE:JomtPresentation.location>
                 <JUDE:JomtPresentation.compositeParent>
-                  <JUDE:UPresentation xmi.idref="mo-hot6peuq--ay2s1s-pbzz0u-07ebf3d19d4d045c5b8970e4b4a89f9f"/>
+                  <JUDE:UPresentation xmi.idref="k6-htd3r6at-pksw0y-pbzz0u-a541dddab6cb3ad680053f55559ad394"/>
                 </JUDE:JomtPresentation.compositeParent>
               </JUDE:LabelPresentation>
             </JUDE:PathPresentation.namePresentation>

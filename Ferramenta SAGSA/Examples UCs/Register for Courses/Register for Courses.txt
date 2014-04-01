@@ -8,8 +8,8 @@ Main Flow – Create a Schedule
 Student starts Use Case.
 Student selects "create schedule" on "Main Form".
 System retrieves the list of "Courses" from the "Course Catalog System".
-Student selects: Algorithms and Data Structures, Computer Architecture, Database of "Courses" from the "Course Catalog System".
-Student selects "submit" on "Main Form".
+Student selects: name, description, content of "Courses" from the "Course Catalog System".
+Student selects "submit schedule" on "Main Form".
 System saves the schedule of "Student".
 Student finishes Use Case.
 Alternative Flows
@@ -19,26 +19,26 @@ System retrieves the schedule of "Student".
 System displays the schedule of "Student". 
 System retrieves the list of "Courses" from the "Course Catalog System".
 System displays the list to the "Student".
-Student selects: Calculus II from the list of "Courses".
-Student selects "add" on "Main Form".
-Student selects: Database from the list of "Courses".
-Student selects "delete" on "Main Form".
-Student selects "submit" on "Main Form".
+Student selects: name from the list of "Courses".
+Student selects "add course" on "Main Form".
+Student selects: name from the list of "Courses".
+Student selects "delete course" on "Main Form".
+Student selects "submit schedule" on "Main Form".
 System saves the schedule of "Student".
 Alternative Flow 02 – Delete a Schedule
 Student selects "delete schedule" on "Main Form".
 System retrieves the schedule of "Student".
 System displays the schedule of "Student".
-Student selects "delete" on "Main Form".
+Student selects "delete schedule" on "Main Form".
 System displays the message "The schedule will be deleted".
-Student selects "Confirm deletion" on "Main Form".
+Student selects "confirm deletion" on "Main Form".
 System deletes the schedule of "Student".
 Alternative Flow 03 – Save a Schedule
-Student selects "save" on "Main Form".
+Student selects "save schedule" on "Main Form".
 System saves the schedule of the "Student".
 Alternative Flow 04 – Add Course Offering
 System verifies the prerequisites of "Student".
-System adds: Compilers from the list of "Courses".
+System adds: name from the list of "Courses".
 System displays the message "Enrollment Confirmed".
 Alternative Flow 05 – Unfulfilled Prerequisites
 System displays the message "The Student has not satisfied the necessary prerequisites".
